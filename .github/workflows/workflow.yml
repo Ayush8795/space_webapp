@@ -21,7 +21,8 @@ jobs:
     - name: Install dependencies
       run: npm install
       
+    - name: Build the application
+      run: npm run build
       
-    - name: Start the application
-      run: npm start &
-      # The & runs the command in the background
+    - name: Serve the application
+      run: npx serve -s build
