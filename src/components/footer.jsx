@@ -114,10 +114,10 @@ function Footer() {
           All Rights Reserved.
         </p>
         <div className="mt-2 space-x-4">
-          <a href="#" className="text-blue-100 hover:text-white">
+          <a href="/" className="text-blue-100 hover:text-white">
             Privacy Policy
           </a>
-          <a href="#" className="text-blue-100 hover:text-white">
+          <a href="/" className="text-blue-100 hover:text-white">
             Terms of Service
           </a>
         </div>
